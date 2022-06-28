@@ -2,8 +2,91 @@ body {
     background-color: green;
 }
 
-.wrapper {    
+.wrapper {
     max-width: 1440px;
     display: flex;
     flex-direction: column;
+}
+
+/*Header*/
+.rectangle {
+    height: 90px;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+.vector {
+    margin-top: 26px;
+    margin-left: 120px;
+    width: 30px;
+    height: 30px;
+}
+
+.title {
+    margin-top: 25px;
+    margin-left: 6px;
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.first {
+    margin-left: 158px;
+    margin-top: 35px;
+    width: 105px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.header_text {
+    margin-left: 42px;
+    margin-top: 35px;
+    width: 105px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.unique {
+    margin-left: 158px;
+}
+/*Login Button*/
+
+.log_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 41px;
+    margin-top: 25px;
+    margin-left: 196px;
+
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
+
+.log_text {
+    width: 43px;
+    height: 21px;    
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;    
+    color: #FFFFFF;
 }
