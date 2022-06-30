@@ -10,11 +10,13 @@ body {
 
 /*Header*/
 .rectangle {
+    position: absolute;
     height: 90px;
     background: rgba(242, 120, 92, 0.7);
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
     display: flex;
     flex-direction: row;
+
 }
 
 .vector {
@@ -64,6 +66,7 @@ body {
 .unique {
     margin-left: 158px;
 }
+
 /*Login Button*/
 
 .log_btn {
@@ -74,7 +77,7 @@ body {
     height: 41px;
     margin-top: 25px;
     margin-left: 196px;
-
+    margin-right: 120px;
     background: #0D606F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
@@ -82,11 +85,212 @@ body {
 
 .log_text {
     width: 43px;
-    height: 21px;    
+    height: 21px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 21px;    
+    line-height: 21px;
     color: #FFFFFF;
+}
+
+/*Intro*/
+.intro {
+    width: 1440px;
+    height: 765px;
+    background: url(img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
+}
+
+.intro_container {
+    display: flex;
+    flex-direction: column;
+    height: 422px;
+    width: 892px;
+    margin-top: 122px;
+    margin-left: 120px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #fff;
+}
+
+.intro_title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #fff;
+}
+
+.intro_subtitle {
+    margin-top: 32px;
+    width: 723px;
+    height: 24px;
+    left: 120px;
+    top: 346px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
+}
+
+.intro_subcontainer {
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    margin-top: 0;
+}
+
+.intro_subtext {
+    width: 892px;
+    height: 95px;
+    margin-top: 32px;
+    margin-left: 41px;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+}
+
+.intro_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-right: 18px;
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
+
+.intro_btn_text {
+    width: 163px;
+    height: 32px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+/*Content*/
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
+
+.content_title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+
+.first_title {
+    margin-top: 80px;
+    margin-left: 414px;
+}
+.content_table {
+    display: flex;
+}
+
+.bike_logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 204px;
+    border-radius: 16px;
+    background-color: #F2785C;
+}
+
+.bike {
+    margin-top: 28px;
+    margin-left: 25px;
+}
+
+.schedule_logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 366px;
+    border-radius: 16px;
+    background-color: #F2785C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plane_logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 330px;
+    border-radius: 16px;
+    background-color: #F2785C;
+}
+
+.plane {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.text_table {
+    display: flex;
+}
+.content_txt {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+    margin-top: 30px;
+}
+
+.first_text {    
+    margin-left: 131px;
+}
+
+.second_text {
+margin-left: 231px;
+}
+
+.third_text {
+    margin-left: 160px;
+}
+
+.content_title {
+    margin-top: 80px;
+    margin-left: 414px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+
+.second_title {
+    margin-left: 470px;
+    margin-top: 97px;
 }
