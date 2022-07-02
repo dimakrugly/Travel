@@ -1,74 +1,14 @@
-@import url(style/normalize.css);
-@import url(style/reset.css);
+@import url(normalize.css);
+@import url(reset.css);
+@import url(carousel.css);
+@import url(header.css);
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1440px;
     display: flex;
     flex-direction: column;
 }
 
-/*Header*/
-.rectangle {
-    width: 1440px;
-    position: absolute;
-    height: 90px;
-    background: rgba(242, 120, 92, 0.7);
-    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
-    display: flex;
-    flex-direction: row;
-
-}
-
-.vector {
-    margin-top: 26px;
-    margin-left: 120px;
-    width: 30px;
-    height: 30px;
-}
-
-.title {
-    margin-top: 25px;
-    margin-left: 6px;
-    font-family: 'Magra';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    color: #FFFFFF;
-    width: 180px;
-    height: 31px;
-}
-
-.first {
-    margin-left: 158px;
-    margin-top: 35px;
-    width: 105px;
-    height: 21px;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-
-.header_text {
-    margin-left: 42px;
-    margin-top: 35px;
-    width: 105px;
-    height: 21px;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-
-.unique {
-    margin-left: 158px;
-}
 
 /*Login Button*/
 
@@ -101,7 +41,8 @@
 .intro {
     width: 100%;
     height: 765px;
-    background: url(../img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
+    background: url(../img/intro_background.png) no-repeat;
+    background-size: cover;
 }
 
 .intro_container {
@@ -193,8 +134,18 @@
 /*Content*/
 .content {
     display: flex;
-    flex-direction: column;
-    background-color: #E5E5E5;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content_table {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.content_container {
+    width: 100%;
 }
 
 .content_title {
@@ -204,50 +155,45 @@
     font-size: 40px;
     line-height: 53px;
     color: #F2785C;
+    text-align: center;
 }
 
 .first_title {
     margin-top: 80px;
-    margin-left: 414px;
-}
-
-.content_table {
-    display: flex;
 }
 
 .bike_logo {
     height: 100px;
     width: 100px;
     margin-top: 40px;
-    margin-left: 204px;
     border-radius: 16px;
     background-color: #F2785C;
-}
-
-.bike {
-    margin-top: 28px;
-    margin-left: 25px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .schedule_logo {
     height: 100px;
     width: 100px;
-    margin-top: 40px;
-    margin-left: 366px;
     border-radius: 16px;
     background-color: #F2785C;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .plane_logo {
     height: 100px;
     width: 100px;
-    margin-top: 40px;
-    margin-left: 330px;
     border-radius: 16px;
     background-color: #F2785C;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .plane {
@@ -283,7 +229,6 @@
 
 .content_title {
     margin-top: 80px;
-    margin-left: 414px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
@@ -293,25 +238,18 @@
 }
 
 .second_title {
-    margin-left: 470px;
+    text-align: center;
     margin-top: 97px;
+    margin-bottom: 46px;
 }
 
-/*SLIDER*/
-.slideshow-container {
-    height: 1042px;
-    width: 100%;
-    background-color: aqua;
-    font-size: 200px;
-    display: flex;
-}
 
 /*STORIES*/
 .stories {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #E5E5E5;
+    background-color: ffffff;
 }
 
 .third_title {

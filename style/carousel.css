@@ -1,0 +1,32 @@
+.slideshow-container {    
+    width: 100%;
+       
+}
+
+.slide__img {   
+    border-radius: 16px;
+} 
+
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+
+  #slideshow-container .owl-dot {
+    margin: 0 10px;
+  }
+ #slideshow-container .owl-dot span {
+    background-color:#F2785C80 ;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+ #slideshow-container .owl-dot.active span {
+    background-color:  #F2785C ;
+  }
