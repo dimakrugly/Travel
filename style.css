@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    max-width: 1440px;
 }
 
 .wrapper {
@@ -10,6 +10,7 @@ body {
 
 /*Header*/
 .rectangle {
+    width: 1440px;
     position: absolute;
     height: 90px;
     background: rgba(242, 120, 92, 0.7);
@@ -35,6 +36,8 @@ body {
     font-size: 32px;
     line-height: 39px;
     color: #FFFFFF;
+    width: 180px;
+    height: 31px;
 }
 
 .first {
@@ -96,7 +99,7 @@ body {
 
 /*Intro*/
 .intro {
-    width: 1440px;
+    width: 100%;
     height: 765px;
     background: url(img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
 }
@@ -210,6 +213,7 @@ body {
     margin-top: 80px;
     margin-left: 414px;
 }
+
 .content_table {
     display: flex;
 }
@@ -257,6 +261,7 @@ body {
 .text_table {
     display: flex;
 }
+
 .content_txt {
     font-family: 'Aleo';
     font-style: normal;
@@ -267,12 +272,12 @@ body {
     margin-top: 30px;
 }
 
-.first_text {    
+.first_text {
     margin-left: 131px;
 }
 
 .second_text {
-margin-left: 231px;
+    margin-left: 231px;
 }
 
 .third_text {
@@ -293,4 +298,133 @@ margin-left: 231px;
 .second_title {
     margin-left: 470px;
     margin-top: 97px;
+}
+
+/*SLIDER*/
+.slideshow-container {
+    height: 1042px;
+    width: 100%;
+    background-color: aqua;
+    font-size: 200px;
+    display: flex;
+}
+
+/*STORIES*/
+.stories {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.third_title {
+    margin-top: 80px;
+    margin-left: 552px;
+}
+
+.story_table {
+    margin-top: 0;
+    height: 1331px;
+    background: url(img/story.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.story_grid {
+    width: 100%;
+    height: 1270px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.story_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.story_left {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.story_img {
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.start {
+    margin-top: 40px;
+}
+
+.story_right {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.story_title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+    margin-top: 30px;
+}
+
+.start_title {
+    margin-top: 0px;
+}
+
+.story_subtitle {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+    margin-top: 24px;
+    width: 760px;
+    height: 184px;
+}
+
+.story_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    width: 228px;
+    height: 59px;
+    margin-top: 40px;
+    margin-left: 608px;
+}
+
+.story_btn_img {
+    width: 35px;
+    height: 22.5px;
+    margin-left: 33.5px;
+}
+
+.story_btn_txt {
+    margin-left: 12.5px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.info {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 21px;
+    margin-left: 590px;
+    color: #fff;
 }
