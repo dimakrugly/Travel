@@ -43,6 +43,7 @@
     height: 765px;
     background: url(../img/intro_background.png) no-repeat;
     background-size: cover;
+    display: flex;
 }
 
 .intro_container {
@@ -51,13 +52,14 @@
     height: 422px;
     width: 892px;
     margin-top: 122px;
-    margin-left: 120px;
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
     line-height: 96px;
     color: #fff;
+    padding: 32px 130px;
+
 }
 
 .intro_title {
