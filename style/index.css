@@ -2,40 +2,18 @@
 @import url(reset.css);
 @import url(carousel.css);
 @import url(header.css);
+@import url(adaptive.css);
+
 
 .wrapper {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    position: relative;
+   
 }
 
 
-/*Login Button*/
-
-.log_btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 103px;
-    height: 41px;
-    margin-top: 25px;
-    margin-left: 196px;
-    margin-right: 120px;
-    background: #0D606F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-}
-
-.log_text {
-    width: 43px;
-    height: 21px;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
 
 /*Intro*/
 .intro {
@@ -50,7 +28,6 @@
     display: flex;
     flex-direction: column;
     height: 422px;
-    width: 892px;
     margin-top: 122px;
     font-family: 'Aleo';
     font-style: normal;
@@ -73,7 +50,6 @@
 
 .intro_subtitle {
     margin-top: 32px;
-    width: 723px;
     height: 24px;
     left: 120px;
     top: 346px;
@@ -88,16 +64,15 @@
 }
 
 .intro_subcontainer {
-    width: 892px;
     height: 95px;
     display: flex;
+    justify-content: space-between;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 16px;
     margin-top: 46px;
 }
 
 .intro_subtext {
-    width: 892px;
     height: 95px;
     margin-top: 32px;
     margin-left: 41px;
@@ -246,88 +221,66 @@
 }
 
 
-/*STORIES*/
-.stories {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: ffffff;
-    justify-content: center;
-    margin-top: 80px;
-}
 
 
-.story_table {
-    margin-top: 0;
-    height: 1331px;
+.storiesTable {
+    margin-top: 40px;
     background: url(../img/story.png);
-    display: flex;
-    flex-direction: column;
+    
 }
 
-.story_grid {
-    width: 100%;
-    height: 1270px;
+
+
+.storyGrid {
     background: rgba(255, 255, 255, 0.7);
+    padding: 40px 125px 41px 120px;    
+}
+
+.storyFlex {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.story_flex {
+.story_line {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
-
-.story_left {
-    margin-left: 120px;
+.storyImage2 {
+    flex: .33;
+}
+.storyImage {
+    padding: 0 40px 0 0;
+    width: 100%;
+    height: auto;
+}
+.storyText {
     display: flex;
     flex-direction: column;
 }
 
-.story_img {
-    width: 400px;
-    height: 250px;
-    margin-top: 40px;
-}
-
-.start {
-    margin-top: 40px;
-}
-
-.story_right {
-    margin-top: 40px;
-    margin-left: 40px;
-}
-
-.story_title {
+.storyTitle {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 42px;
     color: #0D606F;
-    margin-top: 30px;
+    padding-bottom: 24px;
 }
 
-.start_title {
-    margin-top: 0px;
-}
-
-.story_subtitle {
+.storySubTitle {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: #0D606F;
-    margin-top: 24px;
-    width: 760px;
-    height: 184px;
+    
 }
 
-.story_btn {
+.storyButton {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -335,16 +288,17 @@
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
     width: 228px;
-    height: 59px;   
+    height: 59px;
+    margin: 10px 0 0 0;       
 }
 
-.story_btn_img {
+.storyButtonImage {
     width: 35px;
     height: 22.5px;
     margin-left: 33.5px;
 }
 
-.story_btn_txt {
+.storyButtonText {
     margin-left: 12.5px;
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -365,6 +319,6 @@ footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
-    margin-top: 21px;
+    padding: 21px 0 19px 0;
     color: #fff;
 }
