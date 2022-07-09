@@ -2,7 +2,6 @@
     header {
         background-color: transparent;
         box-shadow: none;
-
     }
 
     .headerWrap {
@@ -19,6 +18,19 @@
 
     .log_btn {
         display: none;
-
     }
+
+    .storyGrid {
+        padding: 10px 15px;    
+    }
+
+    .imageContainer {
+        margin-right: 20px;
+    }
+    
+    .storyImage {
+        width: 250px;
+        height: auto;
+    }
+    
 }
