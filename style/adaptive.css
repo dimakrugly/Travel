@@ -33,4 +33,7 @@
         height: auto;
     }
     
+    .menuIcon {
+        visibility: visible;
+    }
 }

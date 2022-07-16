@@ -1,27 +1,30 @@
-
 header {
     position: absolute;
     width: 100%;
     height: 90px;
     background: rgba(242, 120, 92, 0.7);
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
-   
-    
+
+
 
 }
+
 .headerWrap {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 150px 0 120px;
+    align-items: center;
 }
 
 .logo_container {
     display: flex;
 }
+
 .nav_container {
-    display: flex;    
+    display: flex;
 }
+
 /*Travel logo*/
 .vector {
     margin-top: 26px;
@@ -92,4 +95,73 @@ header {
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuIcon {
+    width: 28px;
+    height: 28px;
+    padding: 0 0 10 0;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+.menuLine {
+    border: 0;
+    background-color: transparent;
+}
+
+.buttonLine {
+    width: 28px;
+    height: 5px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.buttonLine:last-child {
+    margin-bottom: 0px;
+}
+.menuSublist {
+    pointer-events: all;
+    visibility: hidden;
+    border-radius: 15px;
+    position: absolute;
+    top: 75%;
+    right: 0;
+    background-color: #F2785C;
+    min-width: 165px;
+    padding: 44px 15px 30px 55px;
+    animation: 3s show ease
+}
+
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+.menuSublist.open {
+    visibility: visible;
+    
+}
+.menuSublink {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    text-decoration: none;
+}
+.menuSublink:hover {
+    transition: all .9s ease 0s;
+    color:lightgreen;
 }
