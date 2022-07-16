@@ -1,0 +1,39 @@
+@media (max-width: 992px) {
+    header {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .headerWrap {
+        padding: 0 16px;
+    }
+
+    .nav_container {
+        display: none;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .log_btn {
+        display: none;
+    }
+
+    .storyGrid {
+        padding: 10px 15px;    
+    }
+
+    .imageContainer {
+        margin-right: 20px;
+    }
+    
+    .storyImage {
+        width: 250px;
+        height: auto;
+    }
+    
+    .menuIcon {
+        visibility: visible;
+    }
+}
