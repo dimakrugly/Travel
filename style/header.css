@@ -140,7 +140,7 @@ header {
     background-color: #F2785C;
     min-width: 165px;
     padding: 44px 15px 30px 55px;
-    animation: 3s show ease
+    animation: 6s show ease
 }
 
 @keyframes show {
